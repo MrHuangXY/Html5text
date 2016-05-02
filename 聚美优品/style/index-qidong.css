@@ -1,0 +1,36 @@
+.qi1{ background: #333;width: 100%;height: 100%;
+position:absolute;display: none;}
+
+/*请选择收货地址*/
+.address{width: 550px;height: 352px;border:5px solid #7F7F7F;background: #fff;
+	position: fixed;top:150px;left:30%;}
+.address .close1{position: absolute;top:0;right:0;width:30px;height:30px;cursor: pointer;
+	background: #3E3E3E;color: #fff;text-align: center;font-size:26px;}
+.address p{height: 94px;background: url(../images/welcome.png);}
+.address dl{width: 550px;height: 30px;border-top: 1px solid #EDEDED;}
+.address dl dt,dd{float: left;font:12px/30px '微软雅黑';text-align: center;}
+.address dl dt{color: #3a3a3a;width: 80px;border-right: 1px solid #ededed;}
+.address dl dd{color: #999;display: block;width: 60px;}
+
+
+/*欢迎来到聚美*/
+.qi1-in{width: 920px; height: 612px;background: #fff;position: fixed;left: 50%;top:20px;margin-left:-460px;
+	display: none;}
+	.qi1-in .close{width:16px;height:16px;position: absolute;right: 10px; top: 11px;color: #fff;cursor: pointer;}
+	.qi1-in .newfu{width: 193px; height: 36px; background: #000;position: absolute;top:398px;left:50%;
+		margin-left:-96px;color: #fff;text-align: center;font:20px/36px '微软雅黑';}
+	.qi1-in .fuli{width:500px; height: 62px;margin:0 auto;margin-top:30px;}	
+	.qi1-in .fuli div{float: left;text-align: center;margin-right: 50px;}
+	.qi1-in .fuli div h1{color: #DA1958;font:20px/48px '微软雅黑';padding-left: 50px;position: relative;}
+	.qi1-in .fuli .fanxian{margin-right: 0;}
+	.qi1-in .fuli .fanxian h1{padding-left:37px;}
+	.qi1-in .fuli .fanxian em{width: 20px; height: 20px;background: url(../images/index.fw.png) no-repeat  0 -31px;margin-left: 2px; }
+
+	.qi1-in .fuli div h1 em{display: block;position: absolute;left:4px;top:16px;
+		background: url(../images/index.fw.png) no-repeat; width: 34px;height: 17px;}
+	.qi1-in .fuli div h1 .zhuling{width: 21px; height: 18px;margin-left: 19px;
+		background:url(../images/index.fw.png) no-repeat 0 -65px; }
+	.qi1-in .fuli div span{color: #333;font-size: 14px;font-family:'微软雅黑'; }
+
+	.qi1-in a{width: 282px; height: 52px; background: #E01557;position: absolute;left:50%;
+		margin-left: -142px;bottom: 30px;color: #fff;line-height: 52px;text-align: center;display: block;}

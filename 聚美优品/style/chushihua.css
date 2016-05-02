@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/*Css 初始化*/
+	html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,span { margin:0; padding:0; }  /*让这些的标签内外边距都是0*/
+	*{ padding:0; margin:0;}
+	fieldset, img { border:none;  }
+	img{display: block;} 
+	ul, ol { list-style:none; }	
+	body { color:#515151; background: #F7F7F7; margin:0 auto; position: relative;}
+	.areaheart{ width:1090px; margin:0 auto;}
+	em{ font-style:normal;}
+	.yahei{ font-family:"微软雅黑";}
+	/*清除浮动*/
+	.clearfix:after { content:" "; display:block; height:0; visibility:hidden; clear:both; }
+	.clearfix { zoom:1; }
+	.clearit { clear:both; height:0; font-size:0; overflow:hidden; }
+	 a{ text-decoration:none; color:#999;}
+	 a:visited { color:#666; }
+	 a:hover, a:active, a:focus { color:#ED155B; cursor: pointer;outline: none;}
+	 -moz-focus-inner{ border:0;}
+
+
+	 
+
+
+

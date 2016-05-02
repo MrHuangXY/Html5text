@@ -1,0 +1,111 @@
+@charset "UTF-8";
+.bignav{ width: 100%; background: #F7F7F7; }
+	.bignav .bn{ height: 66px;padding-top: 20px;}
+	.bignav .bignav-in{ width: 464px;height: 44px; background: #F7F7F7; border:1px solid #666; 
+		margin:0 auto; text-align: center; line-height: 46px;position: relative;}
+	.bignav .bignav-in a{ display: block; background: #fff;}
+
+	.bignav .bignav-in .qiang{ display: block; color: #E6E6E6; float: left; position:absolute; width: 232px; height: 44px; background: #666;}
+	.bignav .bignav-in .yu .txt14{position: absolute;display: block; width: 24px; height: 24px; border-radius: 12px; background: #EA1D5D;
+	 color: #fff; font-size: 10px;line-height: 24px; right: 40px; top:11px; }
+	.bignav .bignav-in .qiang .jiao{ position:absolute;bottom:-30px; left:94px;width:0;
+		 height: 0;border-width:20px; border-color: #666 transparent transparent transparent;
+	 border-style: solid dashed dashed dashed;display:block;}
+	.bignav .bignav-in .yu{ position: relative; display: block; display: block;float: right; width: 232px; height: 44px; color: #333;}
+
+	.bignav .fengq{ height: 1644px; width: 100%;}
+	.bignav .fengq ul{ height: 1624px;}
+	.bignav .fengq ul li{ height: 232px; position: relative;}
+	.bignav .fengq ul li a{ display: block; height: 230px;border-top: 2px solid #000407;position: absolute;}
+	.bignav .fengq ul li .fq-left{ left:0;}
+	.bignav .fengq ul li .fq-right{right:0;}
+
+	.bignav .bignav-down{ height: 62px;background: #333;background: url(../images/big-nav-down.png) no-repeat;margin:0 auto;width: 1090px;}  /*今日疯抢*/
+
+.everyday{width: 100%; height:885px; }
+	.everyday h3{ text-align: center;font:22px/66px '微软雅黑'; color: #0E0E0E;}
+	.everyday .every{ position: relative; border-left: 1px solid #000; height: 709px; 
+		width: 1085px;}
+	.everyday .every li{ border-width:1px;border-style: solid solid solid solid;
+	 border-color:rgba(9,9,9,0.1);border-top: 2px solid #000; float: right;
+	position: relative;box-shadow:0 0 10px #ccc;}
+
+	.everyday .every li .today22{ width: 65px; height: 27px; background:#393939; position: absolute;
+		left:7px;top:-42px; color: #fff;padding-left:5px;font:12px/27px '微软雅黑';}
+	.everyday .every li img{ position: absolute; left:-16px; top:-42px;}
+	.everyday .every li .rightjiao{ position: absolute; left:77px; top:-42px; width: 0;height: 0;
+	border-width:13.7px; border-color: transparent transparent transparent #393939;
+	border-style: dashed dashed dashed solid;}
+
+	.everyday .every li a{ display: block;position: relative; } 
+	.everyday .every li a img{ position: absolute; left: 18px; top:12px;} 
+	.everyday .every li a em{ display: block;} 
+	.everyday .every li .xin{ position: absolute; bottom:24px;left:56%; width: 68px;height: 34px; 
+    background: #000; color: #fff; font:13px/34px '微软雅黑';padding-left: 38px;
+    padding-right: 18px; }
+
+	.everyday .every .every1{  width: 1070px; height: 305px; margin-top: 40px;}
+	.everyday .every .every1 .e1{ width: 1070px; height: 305px; background: url(../images/keyanshi.jpg);}
+	.everyday .every .every2{ width: 1070px; height: 307px; margin-top: 52px;}
+	.everyday .every .every2 .e2{ width: 1070px; height: 307px;background: url(../images/paopaomianmo.jpg);}
+
+	.everyday .look{ display: block; height: 80px; width: 254px; height: 36px; border:1px solid #000;
+		margin:20px auto; font:13px/36px "微软雅黑";text-align: center;
+		color: #000} /*每日必看*/
+
+.temai{ width: 1090px;margin:0 auto;}
+.temai .wi-he{height: 340px;  width: 1090px;overflow: hidden;}
+.temai li{ position: relative;height: 340px;  width: 1090px; 
+ margin-bottom: 20px;}
+.temai li .jisu{position: absolute; left:0; top:0;width: 40px;height: 40px;color: #fff; 
+ background: #872E98; font-size:12px;text-align: center;}
+.temai li p em{ width: 40px;display: block;line-height: 12px; margin-top: 5px;}
+.temai .top{ position: absolute;left:50px; top:30px; font:66px 'Bradley Hand ITC';}
+	.temai .li01{ background:url(../images/temai01.jpg) -200px; }
+	.temai .li02{ background:url(../images/temai02.jpg) -200px; }
+	.temai .li03{ background:url(../images/temai03.jpg) -200px; }
+	.temai .li04{ background:url(../images/temai04.jpg) -200px; }
+	.temai .li05{ background:url(../images/temai05.jpg) -200px; }
+	.temai .li06{ background:url(../images/temai06.jpg) -200px; }
+	.temai .li07{ background:url(../images/temai07.jpg) -200px; }
+	.temai .li08{ background:url(../images/temai08.jpg) -200px; }
+	.temai .li09{ background:url(../images/temai09.jpg) -200px; }
+	.temai .li10{ background:url(../images/temai10.jpg) -200px; }
+	.temai .li11{ background:url(../images/temai11.jpg) -200px; }
+	.temai .li12{ background:url(../images/temai12.jpg) -200px; }
+	.temai .li13{ background:url(../images/temai13.jpg) -200px; }
+	.temai .li14{ background:url(../images/temai14.jpg) -200px; }
+	.temai .li15{ background:url(../images/temai15.jpg) -200px; }
+	.temai .li16{ background:url(../images/temai16.jpg) -200px; }
+	.temai .li17{ background:url(../images/temai17.jpg) -200px; }
+	.temai .li18{ background:url(../images/temai18.jpg) -200px; }
+	.temai .li19{ background:url(../images/temai19.jpg) -200px; }
+.temai .tem-r{position: absolute;right: 20px; top: 18px; width: 382px; 
+	height: 332px; background: #fff;box-shadow: 0 0 10px #ddd;border:1px solid #eee;
+	padding-left: 40px; padding-right: 40px;}
+.temai .tem-r .te-time{display: block; background: #333;text-align: center;font-size:13px;
+	line-height: 26px;color: #fff;width: 218px; height: 26px; margin:-2px auto;}
+.temai .tem-r .r-text{ margin-top: 33px; line-height: 20px; font-size: 15px;margin-bottom: 28px;}
+.temai .tem-r .r-text span{ color: #F15D5B;}
+.temai .tem-r .baoyou{ width: 382px; height: 36px;font:28px/36px '微软雅黑';}
+.temai .tem-r .baoyou .bao-left{ width: 104px; height: 36px;position: relative; float: left;color: #000;}
+.temai .tem-r .baoyou .bao-left .yuan{font-size: 15px;}
+.temai .tem-r .baoyou .bao-left .yuan180{font-size: 15px;font-size: 9px;
+	color: #727272;position: absolute; right: 4px;top:4px;}
+.temai .tem-r .baoyou .bao-left .baoy{width: 30px; height: 30px;}
+.temai .tem-r .baoyou .bao-left .baoy span{font-size:12px;line-height: 16px;text-align: center;
+	display: block; width: 30px; height: 16px; background: #FDA216;color: #fff;
+position: absolute; right: 0;top: 0;}
+.temai .tem-r .baoyou a{ float: right;display:block;width: 106px; height: 36px;
+ background: #E81A62; color: #fff; font-size:16px;font-family:'微软雅黑';
+ text-align: center;}
+.temai .tem-r .num{height: 30px;width: 387px; margin-top: 17px;}
+.temai .tem-r .num .numleft{float:left;color:#868686;font-size: 14px;
+	line-height: 30px;font-family:'微软雅黑';}
+.temai .tem-r .num .numleft span{width: 53px; height: 30px; background: #DD270F;
+	color: #FAE3E1;font:16px/30px '微软雅黑';padding:3px; padding-left:10px;
+	 padding-right:10px; margin-right: 8px;}
+.temai .tem-r .num .numright{float: right;font-size: 11px;}
+.temai .tem-r{color: #828282;font-family:'微软雅黑';  }
+.temai .tem-r .num .numright span{color:#B9966A; font:14px '微软雅黑'; }
+
